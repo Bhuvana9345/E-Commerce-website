@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product | StyleGPT Store</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<nav class="nav">
+    <div class="nav-inner">
+        <a class="brand" href="index.html">StyleGPT Store</a>
+        <div class="nav-links">
+            <a href="cart.html">Cart</a>
+            <a href="wishlist.html">Wishlist</a>
+            <a href="orders.html">Orders</a>
+            <a href="admin.html" data-admin-link>Admin</a>
+            <button class="secondary" data-logout>Logout</button>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <section class="two-col" id="productDetail"></section>
+    <h2>Related products</h2>
+    <section class="grid" id="relatedGrid"></section>
+</main>
+<button class="floating-theme" type="button" title="Dark mode" aria-label="Dark mode" data-dark></button>
+<div id="chatbotMount"></div>
+<script src="js/app.js"></script>
+<script src="js/chatbot.js"></script>
+</body>
+</html>

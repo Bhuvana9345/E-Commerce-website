@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhuvi Style</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="promo-banner">🔥 Free shipping on all orders over Rs.999! Limited time offer! 🔥</div>
+<nav class="nav">
+    <div class="nav-inner">
+        <a class="brand" href="index.html">Bhuvi Style</a>
+        <form class="search-row" id="topSearch">
+            <input name="q" placeholder="Search shirts, shoes, wedding outfits">
+            <button>Search</button>
+        </form>
+        <div class="nav-links">
+            <span class="muted" data-user-name>Guest</span>
+            <a href="cart.html">Cart</a>
+            <a href="wishlist.html">Wishlist</a>
+            <a href="orders.html">Orders</a>
+            <a href="admin.html" data-admin-link>Admin</a>
+            <a href="login.html" data-auth-link>Login</a>
+            <button class="secondary" data-logout>Logout</button>
+        </div>
+    </div>
+</nav>
+<main class="container">
+    <section class="hero">
+        <div>
+            <h1>Bhuvi Style</h1>
+            <p>Premium fashion store with the latest trends, wishlist, easy checkout, and AI outfit help.</p>
+            <button onclick="document.querySelector('#search').focus()">Start shopping</button>
+        </div>
+        <div class="hero-img" aria-label="Fashion shopping"></div>
+    </section>
+    <section class="category-strip">
+        <button type="button" class="category-tile active" data-category-chip="">All Products</button>
+        <button type="button" class="category-tile" data-category-chip="Dresses">Dresses</button>
+        <button type="button" class="category-tile" data-category-chip="Shoes">Shoes</button>
+        <button type="button" class="category-tile" data-category-chip="Shirts">Shirts</button>
+        <button type="button" class="category-tile" data-category-chip="Pants">Pants</button>
+        <button type="button" class="category-tile" data-category-chip="Sarees">Sarees</button>
+        <button type="button" class="category-tile" data-category-chip="Kurtis">Kurtis</button>
+        <button type="button" class="category-tile" data-category-chip="Grocery">Grocery</button>
+        <button type="button" class="category-tile" data-category-chip="Snacks">Snacks</button>
+        <button type="button" class="category-tile" data-category-chip="Accessories">Accessories</button>
+    </section>
+    <form id="filterForm" class="store-controls">
+        <input id="search" placeholder="Search products">
+        <select id="category"></select>
+        <input id="minPrice" type="number" min="0" placeholder="Min price">
+        <input id="maxPrice" type="number" min="0" placeholder="Max price">
+        <button>Search</button>
+        <button type="button" class="secondary" id="clearFilters">Clear</button>
+    </form>
+    <section>
+            <div class="section-head">
+                <h2>Latest Fashion</h2>
+                <span class="muted" id="productCount"></span>
+            </div>
+            <div class="grid" id="productGrid"></div>
+    </section>
+</main>
+<footer class="site-footer">
+    <div class="container footer-grid">
+        <div>
+            <h3>Bhuvi Style</h3>
+            <p class="muted">Your premium fashion destination for modern trends.</p>
+        </div>
+        <div>
+            <h4>Quick Links</h4>
+            <a href="index.html">Shop</a><br>
+            <a href="cart.html">Cart</a><br>
+            <a href="orders.html">Orders</a>
+        </div>
+        <div>
+            <h4>Contact</h4>
+            <p class="muted">support@bhuvistyle.com</p>
+            <p class="muted">+91 9876543210</p>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p class="muted">&copy; 2026 Bhuvi Style. All rights reserved.</p>
+    </div>
+</footer>
+<button class="floating-theme" type="button" title="Dark mode" aria-label="Dark mode" data-dark></button>
+<div id="chatbotMount"></div>
+<script src="js/app.js"></script>
+<script src="js/chatbot.js"></script>
+</body>
+</html>
