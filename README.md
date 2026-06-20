@@ -3,6 +3,13 @@
 A complete, production-ready **full stack e-commerce web application** built with **Spring Boot (Java 17)**, **MySQL**, **HTML/CSS/JavaScript**, and **JWT Authentication**. Features include product browsing, search, cart, wishlist, order management, admin dashboard, image uploads, and an AI-powered fashion chatbot.
 
 ---
+Repository Link
+   
+https://github.com/Bhuvana9345/E-Commerce-website
+
+Live Demo Link
+
+https://e-commerce-website-nsqz.onrender.com/
 
 ## 🚀 Tech Stack
 
@@ -91,15 +98,6 @@ http://localhost:8080/index.html
 
 ---
 
-## 🔐 Demo Accounts
-
-| Role | Email | Password |
-|------|-------|----------|
-| 👤 User | `user@stylegpt.com` | `user123` |
-| 🔑 Admin | `admin@stylegpt.com` | `admin123` |
-
----
-
 ## 🛒 Features
 
 ### Customer Features
@@ -158,30 +156,6 @@ http://localhost:8080/index.html
 | 🍿 Snacks | Cookies, Chips, Dry Fruits, Noodles |
 | 💍 Accessories | Sunglasses, Watch, Handbag, Earrings |
 
----
-
-## 🌐 Hosting (Deploy Online)
-
-### Option 1 — Railway (Recommended)
-1. Push code to GitHub
-2. Go to [railway.app](https://railway.app) → Deploy from GitHub
-3. Add MySQL service
-4. Set environment variables:
-   ```
-   SPRING_DATASOURCE_URL=<railway mysql url>
-   SPRING_DATASOURCE_USERNAME=root
-   SPRING_DATASOURCE_PASSWORD=<password>
-   ```
-5. Live at `https://your-app.railway.app` ✅
-
-### Option 2 — Ngrok (Quick Share)
-```powershell
-mvn spring-boot:run
-ngrok http 8080
-```
-Share the `https://xxx.ngrok.io` URL with anyone!
-
----
 
 ## 🤖 AI Fashion Chatbot
 
