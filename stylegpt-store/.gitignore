@@ -1,0 +1,10 @@
+target/
+*.class
+*.jar
+*.war
+.classpath
+.project
+.settings/
+uploads/products/
+*.log
+.env
