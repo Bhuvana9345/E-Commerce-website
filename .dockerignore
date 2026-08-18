@@ -1,0 +1,6 @@
+stylegpt-store/target
+.git
+.idea
+.vscode
+*.log
+stylegpt-store/uploads
