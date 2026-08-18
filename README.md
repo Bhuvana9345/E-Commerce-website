@@ -9,7 +9,7 @@ https://github.com/Bhuvana9345/E-Commerce-website
 
 Live Demo Link
 
-https://e-commerce-website-nsqz.onrender.com/
+https://e-commerce-website-nsqz.onrender.com
 
 ## 🚀 Tech Stack
 
